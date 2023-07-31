@@ -2,6 +2,10 @@
   --body-background: #24353f;
   --identity-color: #17a2b8;
 }
+::placeholder {
+  color: rgba(255, 255, 255, 0.577) !important;
+  text-transform: capitalize;
+}
 a {
   text-decoration: none;
 }
@@ -13,7 +17,7 @@ body {
 .form_container {
   background-color: #24353f;
   box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
-  /* width: 65%; */
+  width: 65%;
 }
 
 h1 {
@@ -33,4 +37,8 @@ a {
   font-size: 16px;
   text-transform: capitalize;
   margin-block: 16px;
+}
+
+.btn:hover {
+  color: white;
 }
