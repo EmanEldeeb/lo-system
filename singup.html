@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>singup</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;800;900&family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&family=Righteous&family=Titillium+Web:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/signup.js" defer></script>
+  </head>
+  <body>
+    <div class="container text-center my-5">
+      <div class="form_container w-75 m-auto p-5">
+        <h1>Smart Login System</h1>
+        <form action="post">
+          <input
+            type="text"
+            name="username"
+            placeholder="enter your name"
+            class="form-control my-3 text-white bg-transparent"
+            id="username"
+          />
+          <input
+            type="email"
+            name="useremail"
+            placeholder="enter your email"
+            class="form-control my-3 text-white bg-transparent"
+            id="email"
+          />
+          <input
+            type="password"
+            name="userpass"
+            placeholder="enter your password"
+            class="form-control my-3 text-white bg-transparent"
+            id="password"
+          />
+          <div class="action_indectors my-4">
+            <span class="fail text-danger d-none">all input is required</span
+            ><span class="success text-success d-none">success</span>
+            <span class="exists text-danger d-none">email already exists</span>
+          </div>
+          <button class="btn btn-outline-info w-100 my-2" id="singup">
+            singup
+          </button>
+        </form>
+        <div class="switch-pages">
+          You have an account? <a href="login.html">Signin</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+:root {
+  --body-background: #24353f;
+  --identity-color: #17a2b8;
+}
+a {
+  text-decoration: none;
+}
+body {
+  background-color: #24353f;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.form_container {
+  background-color: #24353f;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  /* width: 65%; */
+}
+
+h1 {
+  color: var(--identity-color);
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+input:focus {
+  box-shadow: none !important;
+}
+
+.switch-pages,
+a {
+  color: white;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin-block: 16px;
+}
